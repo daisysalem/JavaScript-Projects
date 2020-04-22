@@ -15,6 +15,12 @@ function myFunction2()   {
 
 document.write (sentence);
 
+function myFunction3(p1, p2)    {
+    document.getElementById("total").innerHTML = (p1*p2);
+}
+
+ 
+
 
 
 
