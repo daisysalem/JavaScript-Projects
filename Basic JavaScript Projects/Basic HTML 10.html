@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="JS/Basic_ JavaScript_10.js"></script>
+    </head>
+    <body>
+        <script>
+            A = "Always ";
+            B = "remember: ";
+            document.write(A+B);
+
+            X = "you ";
+            Y = "are ";
+            document.write(X+Y);
+
+            M = "unique " ;
+            N = "just like everyone else.";
+            document.write(M+N);            
+        </script>
+
+        <p id="loop"></p>
+        <button onclick="Count_to_ten()">Count to 10</button>
+
+        <p id="string"></p>
+        <button onclick="myFunction()">String count</button>
+
+        <p id="List_of_Movies"></p>
+        <button onclick="for_Loop()">Movie List</button>
+
+        <p id="Array"></p>
+        <button onclick="array_Function()">Array Demo</button>
+
+        <p id="Constant"></p>
+        <button onclick="constant_function()">Constant Function</button>
+        
+        <p id="Pi"></p>
+        <button onclick="myFunction2()">Pi</button>
+
+        <p id="Book"></p>
+        <button onclick="read.description()">Let Demo</button>
+
+        <p id="Break_demo"></p>
+        <script>
+            var text = "";
+            var i;
+            for (i = 0; i < 12; i++) {
+                if (i === 3)  { break; }
+                text += "The number is " + i + "<br>";
+            }
+            document.getElementById("Break_demo").innerHTML = text;
+        </script>
+
+        <p id="Continue_demo"></p>
+        <script>
+            var text = "";
+            var i;
+            for (i = 0; i < 10; i++)    {
+                if (i === 3)    { continue; }
+                text += "The number is " + i + "<br>";
+            }
+        document.getElementById("Continue_demo").innerHTML = text;
+        </script>
+
+
+    </body>
+</html>
